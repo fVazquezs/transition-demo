@@ -1,0 +1,63 @@
+
+.retangulo{
+    width: 800px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.imagem {
+    background-image: url("foto.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+}   
+
+.imagem:hover {
+    width: 760px;
+    height: 460px;
+    margin: 20px;
+}
+.container {
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 400px;
+  }
+  
+  .caixa {
+    width: 200px;
+    height: 100px;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container:hover .caixa {
+    width: 800px;
+  }
+  
+  .ease {
+    background-color: aqua;
+    transition-timing-function: linear;
+  }
+  
+  .easein {
+    background-color: khaki;
+    transition-timing-function: ease-in;
+  }
+  
+  .easeout {
+    background-color: coral;
+    transition-timing-function: ease-out;
+  }
+  
+  .easeinout {
+    background-color: lightgreen;
+    transition-timing-function: ease-in-out;
+  }
+
